@@ -16,6 +16,7 @@
 	<!-- 自动引入mapper类 -->
 	<mybatis-spring:scan base-package="cn.com.todayfarm.mapper"/>
 	
+	
 	<context:component-scan base-package="cn.com.todayfarm"></context:component-scan>
 	
 	<context:property-override location="classpath:db.properties"/>
